@@ -32,10 +32,7 @@ const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 function exerciseDog(dogName,dogBreed) {
   let result = []
   for (const element of routine) {
-
     result.push(element(dogName, dogBreed))
-
   }
-
 return result
 }
