@@ -31,9 +31,9 @@ const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
 
 function exerciseDog(dogName,dogBreed) {
   let result = []
-  for (const change of routine) {
+  for (const element of routine) {
 
-    result.push(change(dogName, dogBreed))
+    result.push(element(dogName, dogBreed))
 
   }
 
